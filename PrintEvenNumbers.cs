@@ -11,7 +11,7 @@ namespace PrintEvenNumbers
                 isEven = (i % 2 == 0) ? true : false;
                 if(isEven)
                 {
-                    Console.Write(" " + i);
+                    Console.Write(i + "\t");
                 }
             }
                         
